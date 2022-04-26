@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
 func main() {
-    fmt.Println("hello world")
+	bob := person{"Bob", 20};
+    itsMyBirthday(bob);
 }
