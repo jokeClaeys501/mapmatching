@@ -2,8 +2,12 @@ module main.go
 
 go 1.18
 
+require github.com/paulmach/osm v0.3.0
+
 require (
+	github.com/gogo/protobuf v1.3.1 // indirect
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
+	github.com/paulmach/orb v0.1.6 // indirect
 	github.com/richardlehane/mscfb v1.0.4 // indirect
 	github.com/richardlehane/msoleps v1.0.1 // indirect
 	github.com/xuri/efp v0.0.0-20220407160117-ad0f7a785be8 // indirect
